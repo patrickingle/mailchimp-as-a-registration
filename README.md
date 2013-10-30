@@ -21,3 +21,12 @@ Mailchimp-as-a-registration adds a layer of protection to your wordpress blog by
 If you are hosting your blog on a free provider that has disabled the php mail function, mailchimp sends the email to the new user with their username and password.
 
 Additionally, this plugin also provides a popup modal terms dialog, that forces the users to accept the terms if they want to register for your blog. This happens, when they press Accept on the terms dialog, the Register button will then become enable and clickable to register the new user, otherwise the button remains disabled and the user cannot register.
+
+Publication
+===========
+
+The following publication, "Guide to Using the Mailchimp-as-a-Registration plugin for Wordpress" available on
+Amazon at http://www.amazon.com/dp/B00GAZP2V6 shows how to implement this framework plugin
+in your wordpress blog.
+
+<img src="http://ecx.images-amazon.com/images/I/51rPSJNRuPL._AA278_PIkin4,BottomRight,-51,22_AA300_SH20_OU01_.jpg">
