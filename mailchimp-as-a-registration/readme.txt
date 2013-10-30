@@ -1,4 +1,4 @@
-== Mailchimp as a Registration ==
+=== Mailchimp as a Registration ===
 Contributors: Patrick Ingle
 Tags: mailchimp, custom registration page, terms dialog
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HMJDBZQKYKRFJ
@@ -17,6 +17,11 @@ Additionally, mailchimp maintains a list of spammer emails and will automaticall
 
 An added feature, includes a jquery popup modal dialog to show your custom terms of use with an Accept and Decline button. If the Accept button is not pressed, then the Register button remains disabled, thus preventing unwanted registered users. No need for capcha here as the user must click a popup and accept button.
 
+Available on Amazon for the Kindle: Guide to Using Mailchimp-as-a-Registration, (http://www.amazon.com/dp/B00GAZP2V6)
+
+You do not need a Kindle to read this book. Using the Kindle Free Reading applications for the Cloud, PC, MAC, and Smartphones,
+http://www.amazon.com/gp/feature.html?docId=1000493771
+
 
 == Installation ==
 1. Create a new list and campaign on mailchimp with the additional fields (username, password, phone, and phoneext)
@@ -26,6 +31,17 @@ An added feature, includes a jquery popup modal dialog to show your custom terms
 5. Create a Terms of Use page and give the terms dialog a title.
 6. Select which list to automatically add the new users
 7. Save your changes.
+
+== Frequently Asked Questions == 
+
+= How does this plugin differ from other plugin that use mailchimp =
+This plugin will automatically add register users to a preconfigure mailchimp list and does not require a lot of configuration, only your mailchimp API key. In addition, you have a fully customized terms of user dialog that prevents any user from registering until they accept your site terms.
+
+== Upgrade Notice ==
+You should upgrade your wordpress core to version 3.7 or higher before activating this plugin.
+
+== Screenshots ==
+https://github.com/patrickingle/mailchimp-as-a-registration/blob/master/mailchimp-as-a-registration.jpg
 
 == Changelog ==
 = 1.0 =
