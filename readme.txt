@@ -1,9 +1,9 @@
 === Mailchimp as a Registration ===
-Contributors: Patrick Ingle
+Contributors: phkcorp2005
 Tags: mailchimp, custom registration page, terms dialog
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HMJDBZQKYKRFJ
 Requires at least: 3.7
-Tested up to: 3.7
+Tested up to: 4.6
 Stable tag: 3.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -44,5 +44,9 @@ You should upgrade your wordpress core to version 3.7 or higher before activatin
 https://github.com/patrickingle/mailchimp-as-a-registration/blob/master/mailchimp-as-a-registration.jpg
 
 == Changelog ==
+= 1.1 =
+* Fix some issues
+* WP 4.6
+
 = 1.0 =
 * Initial release

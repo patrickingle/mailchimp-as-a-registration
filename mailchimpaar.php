@@ -3,9 +3,9 @@
 Plugin Name: Mailchimp as a Registration
 Plugin URI: http://#
 Description: Enables mailchimp to be used as registration when opening up WP to registrations, thus reducing spammers as they must be authenticated through mailchimp. Also includes a Terms & Condition dialog with  Accept/Decline feature
-Author: Patrick Ingle
-Version: 1.0
-Author URI: http://github.com/patrickingle
+Author: PHK Corporation
+Version: 1.1
+Author URI: http://www.phkcorp.com
 */
 
 
@@ -235,17 +235,17 @@ function mailchimp_admin() {
 	<h1>Configuration</h1>
 	<form method="post">
 		<h3>Mailchimp API:</h3>
-		<input type="text" name="mcapi" id="mcapi" value="<? echo $apikey?>" size="<? echo strlen($apikey) + 80 ?>"><small><i>Get your API <a href="http://mailchimp.com" target="_blank">here</a>, opens a new window</i></small><br/>
+		<input type="text" name="mcapi" id="mcapi" value="<?php echo $apikey?>" size="<?php echo strlen($apikey) + 80 ?>"><small><i>Get your API <a href="http://mailchimp.com" target="_blank">here</a>, [Account|Extras|API keys] opens a new window</i></small><br/>
 		<h3>Terms (<small><i>Create Terms <a href="http://termsfeed.com/" target="_blank">here</a>, opens a new window</i></small>):</h3>
 		Terms Dialog Title:<input type="text" name="termsdialogtitle" id="termsdialogtitle" value="<?php echo $termsdialogtitle ?>" size="50"><br/>
 <?php
 	wp_editor( $terms, 
-			   'content-id', 
-			   array( 'textarea_name' => 'terms', 
-			   		  'media_buttons' => false, 
-					  'tinymce_adv' => array( 'width' => '100', 
-					  						  'theme_advanced_buttons1' => 'formatselect,forecolor,|,bold,italic,underline,|,bullist,numlist,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,link,unlink,|,spellchecker,wp_fullscreen,wp_adv' ) 
-				) 
+            'content-id', 
+            array( 'textarea_name' => 'terms', 
+                           'media_buttons' => false, 
+                           'tinymce_adv' => array( 'width' => '100', 
+                           'theme_advanced_buttons1' => 'formatselect,forecolor,|,bold,italic,underline,|,bullist,numlist,blockquote,|,justifyleft,justifycenter,justifyright,justifyfull,|,link,unlink,|,spellchecker,wp_fullscreen,wp_adv' ) 
+                 ) 
 	);
 
 	if ($apikey != '') {
