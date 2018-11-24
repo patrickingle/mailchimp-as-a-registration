@@ -3,9 +3,9 @@
 Plugin Name: Mailchimp as a Registration
 Plugin URI: https://wordpress.org/plugins/mailchimp-as-a-registration/
 Description: Enables mailchimp to be used as registration when opening up WP to registrations, thus reducing spammers as they must be authenticated through mailchimp. Also includes a Terms & Condition dialog with  Accept/Decline feature
-Author: PHK Corporation
+Author: PressPage Entertainment Inc.
 Version: 1.1
-Author URI: http://www.phkcorp.com
+Author URI: https://presspage.info
 */
 
 

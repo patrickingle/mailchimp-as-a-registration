@@ -41,7 +41,7 @@ This plugin will automatically add register users to a preconfigure mailchimp li
 You should upgrade your wordpress core to version 3.7 or higher before activating this plugin.
 
 == Screenshots ==
-https://github.com/patrickingle/mailchimp-as-a-registration/blob/master/mailchimp-as-a-registration.jpg
+https://github.com/presspage2018/mailchimp-as-a-registration/blob/master/mailchimp-as-a-registration.jpg
 
 == Changelog ==
 = 1.1 =
